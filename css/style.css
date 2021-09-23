@@ -38,17 +38,18 @@ header .menu .menu-left {
   height: 70px;
 }
 
-header .menu .menu-left .logo-img{
+header .menu .menu-left .logo-img {
   vertical-align: middle;
 }
 
-header .menu .menu-left li{    /*ho provato ad inserire la classe menu-right ma perche nn funziona*/
+header .menu .menu-left li {
+  /*ho provato ad inserire la classe menu-right ma perche nn funziona*/
   list-style: none;
   display: inline-block;
   vertical-align: middle;
 }
 
-header .menu .menu-left li a{
+header .menu .menu-left li a {
   text-decoration: none;
   color: black;
   padding: 10px;
@@ -61,19 +62,21 @@ header .menu .menu-right {
   padding-left: 16%;
 }
 
-header .menu .menu-right li{
+header .menu .menu-right li {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
 }
 
-header .menu .menu-right li a{
+header .menu .menu-right li a {
   text-decoration: none;
   color: black;
   padding: 10px;
 }
 
-.btn-blue-small, .btn-blue-big, .btn-white-big{
+.btn-blue-small,
+.btn-blue-big,
+.btn-white-big {
   width: 60px;
   height: 30px;
   text-decoration: none;
@@ -102,7 +105,9 @@ header .jumbotron {
   height: 80px;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   font-size: 39px;
   font-weight: bold;
 }
@@ -119,23 +124,24 @@ h1, h2, h3{
   width: 60%;
   height: 400px;
 }
-img{
+img {
   width: 100%;
 }
 
-.jumbo-text li{
-  list-style:none;
+.jumbo-text li {
+  list-style: none;
   margin-top: 10px;
 }
 
-.btn-blue-big{
+.btn-blue-big {
   width: 180px;
 }
-.anchor{
+.anchor {
   font-size: 50px;
 }
 
-.scroll::before{          /*da risolvere*/
+.scroll::before {
+  /*da risolvere*/
   content: "";
   display: block;
   height: 70px;
@@ -143,7 +149,7 @@ img{
 }
 /* Main */
 
-.title-columns h2{
+.title-columns h2 {
   font-size: 30px;
 }
 
@@ -201,24 +207,22 @@ main section.find-partner {
   height: 100%;
 }
 
-.find-partner-text h3{
+.find-partner-text h3 {
   font-size: 25px;
   margin: 25px 30px;
 }
 
-.find-partner-text p{
-margin: 25px 30px;
+.find-partner-text p {
+  margin: 25px 30px;
 }
 
-.find-partner-text .btn-white-big{
+.find-partner-text .btn-white-big {
   width: 130px;
   color: black;
   border: 1px solid black;
   background-color: white;
-  margin: 25px 30px
+  margin: 25px 30px;
 }
-
-
 
 main section.folder {
   width: 60%;
@@ -258,7 +262,7 @@ section.title-table {
 
 .table {
   width: 100%;
-  height: 400px;
+  height: 536px;
   margin: auto;
   margin-bottom: 50px;
 }
@@ -274,7 +278,6 @@ section.title-table {
   width: calc(100% / 3);
   height: 100%;
   float: left;
-  border: 1px solid black;
 }
 
 .table-top-center {
@@ -284,10 +287,41 @@ section.title-table {
 .table-top-row-cube {
   float: left;
   width: 50%;
-  height: 118px;
-  border: 1px solid black;
+  height: 160px;
+  padding: 55px;
 }
 
+.designit {
+  background-color: #a2d39b;
+}
+
+.arizona {
+  background-color: #61082c;
+}
+
+.florida {
+  background-color: #1d93ce;
+}
+
+.topps {
+  background-color: #f91c1d;
+}
+
+.world {
+  background-color: #f91c1d;
+}
+
+.hearst {
+  background-color: #b4d0e7;
+}
+
+.lonely {
+  background-color: #0d2481;
+}
+
+.clear {
+  background-color: #fed830;
+}
 .table .table-bottom {
   width: 100%;
   height: 40%;
