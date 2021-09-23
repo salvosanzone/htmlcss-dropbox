@@ -14,6 +14,10 @@ body {
   display: table;
   clear: both;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 /* Header */
 header {
   height: 750px;
@@ -69,7 +73,7 @@ header .menu .menu-right li a{
   padding: 10px;
 }
 
-.btn-blue-small, .btn-blue-big{
+.btn-blue-small, .btn-blue-big, .btn-white-big{
   width: 60px;
   height: 30px;
   text-decoration: none;
@@ -98,7 +102,7 @@ header .jumbotron {
   height: 80px;
 }
 
-h1{
+h1, h2, h3{
   font-size: 41px;
   font-weight: bold;
 }
@@ -125,11 +129,22 @@ img{
 }
 
 .btn-blue-big{
-  list-style: none;
   width: 180px;
 }
 .anchor{
   font-size: 50px;
+}
+
+.scroll::before{          /*da risolvere*/
+  content: "";
+  display: block;
+  height: 70px;
+  margin: -70px 0;
+}
+/* Main */
+
+.title-columns h2{
+  font-size: 30px;
 }
 
 main section.columns {
@@ -185,8 +200,26 @@ main section.find-partner {
   float: left;
   width: 50%;
   height: 100%;
-  border: 1px solid black;
 }
+
+.find-partner-text h3{
+  font-size: 25px;
+  margin: 25px 30px;
+}
+
+.find-partner-text p{
+margin: 25px 30px;
+}
+
+.find-partner-text .btn-white-big{
+  width: 130px;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  margin: 25px 30px
+}
+
+
 
 main section.folder {
   width: 60%;
