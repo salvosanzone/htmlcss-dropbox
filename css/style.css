@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+  height: 750px;
+}
+
+header .menu{
+  height: 80px;
+}
+
+header .menu .menu-left{
+  float: left;
+  width: 50%;
+  height: 80px;
+  background-color: cadetblue;
+}
+
+header .menu .menu-right{
+  float: left;
+  width: 50%;
+  height: 80px;
+  background-color: crimson;
+}
+
+header .jumbotron{
+  height: 500px;
+  background-color: #b4d0e7;
+}
+
+.jumbotron .jumbo-container{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  padding-top: 60px;
+  border: 1px solid black;
+}
+
+.jumbo-container .jumbo-title{
+  width: 60%;
+  height: 80px;
+  margin: auto;
+background-color: green;}
+
+.jumbo-container .jumbo-text{
+  float: left;
+  width: 40%;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.jumbo-container .jumbo-image{
+  float: left;
+  width: 60%;
+  height: 400px;
+  border: 1px solid black;
+}
+
+main{
+  height: 500px;
+  background-color: darkcyan;
+}
+
+main .columns{
+  width: 50%;
+  height: 600px;
+  margin: auto;
+  border: 1px solid black;
+}
