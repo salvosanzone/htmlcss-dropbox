@@ -137,11 +137,9 @@ img {
   width: 180px;
 }
 .anchor {
-  font-size: 50px;
-}
-
-span .anchor li a {
   text-decoration: none;
+  font-size: 50px;
+  color: black;
 }
 
 .scroll::before {
@@ -407,7 +405,30 @@ footer {
 
 footer .container-footer {
   width: 80%;
-  height: 250px;
+  height: 300px;
   margin: auto;
-  border: 1px solid white;
+  padding: 50px;
+}
+
+
+.list{
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  
+}
+
+.list .list-top h4{
+  color: white;
+}
+
+.container-footer .list .list-bottom li{
+  list-style: none;
+}
+
+.container-footer .list .list-bottom li a{
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+  
 }
