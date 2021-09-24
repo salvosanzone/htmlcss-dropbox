@@ -159,7 +159,7 @@ span .anchor li a {
 
 main section.columns {
   position: relative;
-  width: 60%;
+  width: 67%;
   height: 600px;
   margin: auto;
   margin-bottom: 100px;
@@ -168,7 +168,7 @@ main section.columns {
 
 main .title-columns,
 .title-folder {
-  width: 60%;
+  width: 67%;
   height: 80px;
   margin: auto;
 }
@@ -198,7 +198,7 @@ section.columns .horizontal-column {
 }
 
 main section.find-partner {
-  width: 60%;
+  width: 67%;
   height: 400px;
   margin: auto;
   margin-bottom: 80px;
@@ -229,15 +229,15 @@ main section.find-partner {
 }
 
 main section.folder {
-  width: 60%;
-  height: 900px;
+  width: 67%;
+  height: 1100px;
   margin: auto;
   margin-bottom: 30px;
 }
 
 section .row {
   width: 100%;
-  height: 415px;
+  height: 515px;
 }
 
 .row .box-row {
@@ -249,7 +249,7 @@ section .row {
 
 .row .box-row .box-row-img {
   width: 100%;
-  height: 80%;
+  height: 95%;
 }
 
 .row .box-row .box-row-text {
@@ -289,18 +289,18 @@ section.title-table {
   padding: 40px;
 }
 
-.tab-top-center-img{
+.tab-top-center-img {
   width: 100px;
 }
 
-.tab-text-center{
+.tab-text-center {
   width: 400px;
   height: 90px;
   margin-top: 40px;
 }
 
-.tab-top-center-author{
-margin-top: 40px;
+.tab-top-center-author {
+  margin-top: 40px;
 }
 
 .table-top-row-cube {
@@ -349,25 +349,53 @@ margin-top: 40px;
   padding: 122px 223px;
 }
 
-.table-bottom .tab-bottom-text h2{
+.table-bottom .tab-bottom-text h2 {
+  float: left;
   width: 463px;
   color: #61082c;
   padding-bottom: 100px;
 }
 
-section.title-question {
-  width: 60%;
+.table-bottom-btn {
+  float: left;
+  margin-left: 190px;
+}
+
+.btn-white-big {
+  width: 240px;
+  color: black;
+  background-color: white;
+}
+
+section.title-faq {
+  width: 67%;
   height: 80px;
   margin: auto;
   margin-top: 267px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
 }
 
-.question {
-  width: 60%;
+.faq {
+  width: 67%;
   height: 80px;
   margin: auto;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
+}
+
+.faq .question{
+  float: left;
+  width: 95%;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.open-answer{
+  float: left;
+  padding-top: 30px
+}
+
+.open-answer:hover{
+  cursor: pointer;
 }
 
 footer {
