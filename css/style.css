@@ -140,6 +140,10 @@ img {
   font-size: 50px;
 }
 
+span .anchor li a {
+  text-decoration: none;
+}
+
 .scroll::before {
   /*da risolvere*/
   content: "";
@@ -254,10 +258,9 @@ section .row {
 }
 
 section.title-table {
-  width: 60%;
-  height: 80px;
-  margin: auto;
-  border: 1px solid black;
+  width: 40%;
+  height: 130px;
+  margin: 0 225px 0px;
 }
 
 .table {
@@ -270,6 +273,7 @@ section.title-table {
 .table .table-top {
   width: 100%;
   height: 60%;
+  margin-top: 40px;
 }
 
 .table-top .table-top-left,
@@ -282,6 +286,21 @@ section.title-table {
 
 .table-top-center {
   background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.tab-top-center-img{
+  width: 100px;
+}
+
+.tab-text-center{
+  width: 400px;
+  height: 90px;
+  margin-top: 40px;
+}
+
+.tab-top-center-author{
+margin-top: 40px;
 }
 
 .table-top-row-cube {
@@ -297,6 +316,7 @@ section.title-table {
 
 .arizona {
   background-color: #61082c;
+  -bottom: 10px;
 }
 
 .florida {
@@ -324,14 +344,22 @@ section.title-table {
 }
 .table .table-bottom {
   width: 100%;
-  height: 40%;
+  height: 63%;
   background-color: #b4d0e7;
+  padding: 122px 223px;
+}
+
+.table-bottom .tab-bottom-text h2{
+  width: 463px;
+  color: #61082c;
+  padding-bottom: 100px;
 }
 
 section.title-question {
   width: 60%;
   height: 80px;
   margin: auto;
+  margin-top: 267px;
   border-bottom: 1px solid black;
 }
 
