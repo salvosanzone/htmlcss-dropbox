@@ -457,6 +457,7 @@ section.title-faq {
   float: left;
   height: 100%;
   padding-top: 30px;
+  margin-right: 250px;
 }
 
 .open-answer {
@@ -465,6 +466,7 @@ section.title-faq {
 }
 
 .open-answer:hover {
+  float: right;
   cursor: pointer;
 }
 
