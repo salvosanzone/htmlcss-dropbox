@@ -205,7 +205,7 @@ img {
 main section.columns {
   position: relative;
   width: 68%;
-  height: 900px;
+  height: 1000px;
   margin: auto;
   margin-bottom: 100px;
 }
@@ -261,11 +261,27 @@ i#blue-check {
 
 section.columns .horizontal-column {
   width: 100%;
-  height: 85px;
+  height: 160px;
   position: absolute;
   bottom: 0px;
   border: 1px solid lightgray;
 }
+
+.btn-office{
+  position: absolute;
+  right: 30px;
+  top: 65px;
+}
+
+.horizontal-column-text{
+  width: 100%;
+  padding: 25px;
+}
+
+.horizontal-column-text h4, h5{
+  margin-bottom: 15px;
+}
+
 
 main section.find-partner {
   width: 67%;
