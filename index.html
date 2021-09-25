@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Drobpbox Bussines</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
@@ -67,8 +67,16 @@
       </div>
     </header>
     <main>
-      <section class="title-columns">
+      <section class="title-columns clearfix">
         <h2>Trova il piano Dropbox Business che fa per te</h2>
+        <label class="check-container">Fatturazione mensile
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="check-container">Fatturazione annuale
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
       </section>
       <section class="columns clearfix">
         <div class="column-left">
@@ -200,18 +208,18 @@
           <div class="table-top-left">
             <div class="table-top-row clearfix">
               <div class="table-top-row-cube designit">
-                <img src="img/designit.svg" alt="" />
+                <img class="color-img" src="img/designit.svg" alt="" />
               </div>
               <div class="table-top-row-cube arizona">
-                <img src="img/arizona_state_university.svg" alt="" />
+                <img class="color-img" src="img/arizona_state_university.svg" alt="" />
               </div>
             </div>
             <div class="table-top-row clearfix">
               <div class="table-top-row-cube florida">
-                <img src="img/university_of_florida.svg" alt="" />
+                <img class="color-img" src="img/university_of_florida.svg" alt="" />
               </div>
               <div class="table-top-row-cube topps">
-                <img src="img/topps.svg" alt="" />
+                <img class="color-img" src="img/topps.svg" alt="" />
               </div>
             </div>
           </div>
@@ -234,18 +242,18 @@
           <div class="table-top-right">
             <div class="table-top-row clearfix">
               <div class="table-top-row-cube world">
-                <img src="img/world_bicycle_relief.svg" alt="" />
+                <img class="color-img" src="img/world_bicycle_relief.svg" alt="" />
               </div>
               <div class="table-top-row-cube hearst">
-                <img src="img/hearst_corp.svg" alt="" />
+                <img class="color-img" src="img/hearst_corp.svg" alt="" />
               </div>
             </div>
             <div class="table-top-row clearfix">
               <div class="table-top-row-cube lonely">
-                <img src="img/lonely_planet.svg" alt="" />
+                <img class="color-img" src="img/lonely_planet.svg" alt="" />
               </div>
               <div class="table-top-row-cube clear">
-                <img src="img/clear_channel.svg" alt="" />
+                <img class="color-img" src="img/clear_channel.svg" alt="" />
               </div>
             </div>
           </div>
@@ -314,9 +322,9 @@
               Dropbox
             </h4>
           </div>
-          <div class="list-bottom">
+          <div id="line" class="list-bottom">
             <ul>
-              <li><a href="">Applicazione del Desktop</a></li>
+              <li><a href="">Applicazione Desktop</a></li>
               <li><a href="">Perchè Dropbox</a></li>
               <li><a href="">Piani</a></li>
               <li><a href="">Sicurezza</a></li>
@@ -327,12 +335,12 @@
         <div class="list">
           <div class="list-top">
             <h4>
-              Dropbox
+              Prodotti
             </h4>
           </div>
           <div class="list-bottom">
             <ul>
-              <li><a href="">Applicazione del Desktop</a></li>
+              <li><a href="">Applicazione Desktop</a></li>
               <li><a href="">Perchè Dropbox</a></li>
               <li><a href="">Piani</a></li>
               <li><a href="">Sicurezza</a></li>
@@ -343,12 +351,12 @@
         <div class="list">
           <div class="list-top">
             <h4>
-              Dropbox
+              Azienda
             </h4>
           </div>
           <div class="list-bottom">
             <ul>
-              <li><a href="">Applicazione del Desktop</a></li>
+              <li><a href="">Applicazione Desktop</a></li>
               <li><a href="">Perchè Dropbox</a></li>
               <li><a href="">Piani</a></li>
               <li><a href="">Sicurezza</a></li>
@@ -359,12 +367,12 @@
         <div class="list">
           <div class="list-top">
             <h4>
-              Dropbox
+              Supporto
             </h4>
           </div>
           <div class="list-bottom">
             <ul>
-              <li><a href="">Applicazione del Desktop</a></li>
+              <li><a href="">Applicazione Desktop</a></li>
               <li><a href="">Perchè Dropbox</a></li>
               <li><a href="">Piani</a></li>
               <li><a href="">Sicurezza</a></li>
@@ -375,16 +383,17 @@
         <div class="list">
           <div class="list-top">
             <h4>
-              Dropbox
+              Community
             </h4>
           </div>
           <div class="list-bottom">
             <ul>
-              <li><a href="">Applicazione del Desktop</a></li>
+              <li><a href="">Applicazione Desktop</a></li>
               <li><a href="">Perchè Dropbox</a></li>
               <li><a href="">Piani</a></li>
-              <li><a href="">Sicurezza</a></li>
-              <li><a href="">Funzioni</a></li>
+              <li><a id="cover" href="">Sicurezza</a></li>
+              <li><a id="cover" href="">Funzioni</a></li>
+            </ul>
             </ul>
           </div>
         </div>

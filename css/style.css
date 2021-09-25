@@ -155,6 +155,53 @@ img {
   font-size: 30px;
 }
 
+.check-container {
+  float: left;
+  display: block;
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.check-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.check-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.check-container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.check-container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
 main section.columns {
   position: relative;
   width: 67%;
@@ -307,7 +354,7 @@ section.title-table {
   height: 160px;
   padding: 55px;
 }
-
+/*Bg-color Brand*/
 .designit {
   background-color: #a2d39b;
 }
@@ -340,6 +387,12 @@ section.title-table {
 .clear {
   background-color: #fed830;
 }
+
+/*Filter Brand*/
+.color-img {
+  filter: invert(1);
+}
+
 .table .table-bottom {
   width: 100%;
   height: 63%;
@@ -380,19 +433,19 @@ section.title-faq {
   border-bottom: 1px solid lightgray;
 }
 
-.faq .question{
+.faq .question {
   float: left;
   width: 95%;
   height: 100%;
   padding-top: 30px;
 }
 
-.open-answer{
+.open-answer {
   float: left;
-  padding-top: 30px
+  padding-top: 30px;
 }
 
-.open-answer:hover{
+.open-answer:hover {
   cursor: pointer;
 }
 
@@ -410,25 +463,34 @@ footer .container-footer {
   padding: 50px;
 }
 
-
-.list{
+.list {
   display: inline-block;
-  width: 20%;
-  height: 150px;
-  
+  width: 19%;
 }
 
-.list .list-top h4{
+.list .list-top h4 {
   color: white;
 }
 
-.container-footer .list .list-bottom li{
+.list-bottom {
+  width: 60%;
+  height: 216px;
+}
+
+.container-footer .list .list-bottom li {
   list-style: none;
 }
 
-.container-footer .list .list-bottom li a{
+.container-footer .list .list-bottom li a {
   text-decoration: none;
   font-size: 10px;
   color: white;
-  
+}
+
+#cover {
+  visibility: hidden; /* l' ho reso invisibile*/
+}
+
+#line {
+  border-bottom: 1px solid lightgray;
 }
