@@ -19,9 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 /* Header */
-header {
-  height: 660px;
-}
+
 
 header .menu {
   width: 100%;
@@ -143,12 +141,19 @@ img {
   margin: -70px 0;
 }
 /* Main */
-
-.title-columns h2 {
-  font-size: 30px;
+.scroll::before{   /*trick*/
+  content: "";
+  display: block;
+  height: 70px;
+  margin: -70px 0;
 }
 
-.check-container {
+main .title-columns h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.title-columns .check-container {
   float: left;
   display: block;
   position: relative;
@@ -227,7 +232,7 @@ main section.columns {
 }
 
 .space {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 h6 {
   color: gray;
