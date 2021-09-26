@@ -29,6 +29,14 @@ header .menu {
   top: 0;
   background-color: white;
 }
+.menu a:hover{
+  border-bottom: 3px solid #0061ff;
+}
+
+.menu-left:hover logo-img {
+  display: block;
+}
+
 /* Left Menu */
 header .menu .menu-left {
   float: left;
