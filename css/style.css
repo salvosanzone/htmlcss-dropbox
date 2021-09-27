@@ -79,13 +79,11 @@ header .menu .menu-right li a {
 
 .btn-blue-small,
 .btn-white-small {
-  padding: 0 10px;
-  height: 30px;
+  padding: 8px 10px;
 }
 .btn-blue-small,
 .btn-blue-big,
 .btn-white-big {
-  height: 30px;
   text-decoration: none;
   border: none;
   color: white;
@@ -93,6 +91,13 @@ header .menu .menu-right li a {
   margin: 4px 2px;
   cursor: pointer;
   background-color: #0061ff;
+}
+
+.btn-blue-big,
+.btn-white-big,
+.btn-office,
+.btn-white-big {
+  padding: 8px 45px;
 }
 /* Jumbotron */
 header .jumbotron {
@@ -135,9 +140,6 @@ img {
   margin-top: 10px;
 }
 
-.btn-blue-big {
-  padding: 0 20px;
-}
 .anchor {
   text-decoration: none;
   font-size: 50px;
@@ -160,6 +162,7 @@ img {
 
 main .title-columns h2 {
   font-size: 30px;
+  padding-top: 150px;
   padding-bottom: 20px;
 }
 /*Check-box*/
@@ -241,9 +244,7 @@ main section.columns {
   width: 100%;
   padding: 20px;
 }
-.btn-column {
-  padding: 0 45px;
-}
+
 .space {
   margin-bottom: 12px;
 }
@@ -269,7 +270,6 @@ section.columns .horizontal-column {
 
 .btn-office {
   position: absolute;
-  padding: 0 55px;
   right: 30px;
   top: 65px;
 }
@@ -341,7 +341,7 @@ section .row {
 .row .box-row .box-row-text {
   width: 100%;
 }
-
+/*Table*/
 section.title-table {
   width: 40%;
   margin: 0 225px 0px;
@@ -451,11 +451,10 @@ section.title-table {
 }
 
 .btn-white-big {
-  padding: 0 45px;
   color: black;
   background-color: white;
 }
-
+/*FAQ*/
 section.title-faq {
   width: 67%;
   margin: auto;
@@ -487,7 +486,18 @@ section.title-faq {
   float: right;
   cursor: pointer;
 }
+.panel {
+  display: none;
+}
+.open-answer:active .panel {
+  display: block;
+}
 
+.open-answer:active .question {
+  margin-bottom: 50px;
+}
+
+/*Footer*/
 footer {
   background-color: black;
   padding-top: 50px;
