@@ -20,7 +20,7 @@ html {
 }
 /* Header */
 
-
+/*Menu*/
 header .menu {
   width: 100%;
   height: 70px;
@@ -29,12 +29,8 @@ header .menu {
   top: 0;
   background-color: white;
 }
-.menu a:hover{
-  border-bottom: 3px solid #0061ff;
-}
-
-.menu-left:hover logo-img {
-  display: block;
+.menu li:hover {
+  border-bottom: 3px solid black;
 }
 
 /* Left Menu */
@@ -48,8 +44,6 @@ header .menu .menu-left .logo-img {
 }
 
 header .menu .menu-left li {
-  /*ho provato ad inserire la classe menu-right ma perche nn funziona*/
-  list-style: none;
   display: inline-block;
   vertical-align: middle;
 }
@@ -59,7 +53,7 @@ header .menu .menu-left li a {
   color: black;
   padding: 10px;
 }
-
+/*Right Menu*/
 header .menu .menu-right {
   float: left;
   width: 50%;
@@ -77,11 +71,14 @@ header .menu .menu-right li a {
   color: black;
   padding: 10px;
 }
-
+.btn-blue-small,
+.btn-white-small {
+  padding: 0 10px;
+  height: 30px;
+}
 .btn-blue-small,
 .btn-blue-big,
 .btn-white-big {
-  width: 60px;
   height: 30px;
   text-decoration: none;
   border: none;
@@ -133,7 +130,7 @@ img {
 }
 
 .btn-blue-big {
-  width: 202px;
+  padding: 0 20px;
 }
 .anchor {
   text-decoration: none;
@@ -142,14 +139,13 @@ img {
 }
 
 .scroll::before {
-  /*da risolvere*/
   content: "";
   display: block;
   height: 70px;
   margin: -70px 0;
 }
-/* Main */
-.scroll::before{   /*trick*/
+/* Main */ /*Trick*/
+.scroll::before {
   content: "";
   display: block;
   height: 70px;
@@ -158,9 +154,9 @@ img {
 
 main .title-columns h2 {
   font-size: 30px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
-
+/*Check-box*/
 .title-columns .check-container {
   float: left;
   display: block;
@@ -208,10 +204,11 @@ main .title-columns h2 {
   border-radius: 50%;
   background: white;
 }
+/*Section Columns*/
 main section.columns {
   position: relative;
   width: 68%;
-  height: 1000px;
+  min-height: 1000px;
   margin: auto;
   margin-bottom: 100px;
 }
@@ -238,7 +235,9 @@ main section.columns {
   width: 100%;
   padding: 20px;
 }
-
+.btn-column {
+  padding: 0 45px;
+}
 .space {
   margin-bottom: 12px;
 }
@@ -264,6 +263,7 @@ section.columns .horizontal-column {
 
 .btn-office {
   position: absolute;
+  padding: 0 55px;
   right: 30px;
   top: 65px;
 }
@@ -277,7 +277,7 @@ section.columns .horizontal-column {
 h5 {
   margin-bottom: 15px;
 }
-
+/*Section Find partner*/
 main section.find-partner {
   width: 67%;
   margin: auto;
@@ -299,8 +299,7 @@ main section.find-partner {
   margin: 25px 30px;
 }
 
-.find-partner-text .btn-white-big {
-  width: 130px;
+.find-partner-text .btn-white-small {
   color: black;
   border: 1px solid black;
   background-color: white;
@@ -446,7 +445,7 @@ section.title-table {
 }
 
 .btn-white-big {
-  width: 240px;
+  padding: 0 45px;
   color: black;
   background-color: white;
 }
