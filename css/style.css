@@ -28,6 +28,7 @@ header .menu {
   line-height: 70px;
   position: fixed; /*quando è fixed dare sempre la width*/
   top: 0;
+  z-index: 999;
   background-color: white;
 }
 .menu a:hover {
@@ -317,7 +318,7 @@ main .title-columns,
   width: 67%;
   margin: auto;
 }
-
+/*Section Folder*/
 main section.folder {
   width: 67%;
   margin: auto;
