@@ -29,9 +29,10 @@ header .menu {
   top: 0;
   background-color: white;
 }
-.menu li:hover {
+.menu a:hover {
   border-bottom: 3px solid black;
 }
+
 
 /* Left Menu */
 header .menu .menu-left {
@@ -51,13 +52,13 @@ header .menu .menu-left li {
 header .menu .menu-left li a {
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 19px 16px;
 }
 /*Right Menu*/
 header .menu .menu-right {
   float: left;
   width: 50%;
-  padding-left: 16%;
+  
 }
 
 header .menu .menu-right li {
@@ -69,7 +70,7 @@ header .menu .menu-right li {
 header .menu .menu-right li a {
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 19px 16px;
 }
 .btn-blue-small,
 .btn-white-small {
