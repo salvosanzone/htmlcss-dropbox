@@ -23,6 +23,7 @@ html {
 /*Menu*/
 header .menu {
   width: 100%;
+  min-width: 1050px; /*mi permette di non spaccare il menu*/
   height: 70px;
   line-height: 70px;
   position: fixed; /*quando è fixed dare sempre la width*/
@@ -32,7 +33,6 @@ header .menu {
 .menu a:hover {
   border-bottom: 3px solid black;
 }
-
 
 /* Left Menu */
 header .menu .menu-left {
@@ -58,7 +58,11 @@ header .menu .menu-left li a {
 header .menu .menu-right {
   float: left;
   width: 50%;
-  
+}
+
+.menu-right ul {
+  position: absolute;
+  right: 0px;
 }
 
 header .menu .menu-right li {
@@ -72,6 +76,7 @@ header .menu .menu-right li a {
   color: black;
   padding: 19px 16px;
 }
+
 .btn-blue-small,
 .btn-white-small {
   padding: 0 10px;
