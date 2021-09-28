@@ -480,11 +480,10 @@ section.title-faq {
 
 .open-answer {
   float: left;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .open-answer:hover {
-  float: right;
   cursor: pointer;
 }
 .panel {
@@ -492,10 +491,6 @@ section.title-faq {
 }
 .open-answer:active .panel {
   display: block;
-}
-
-.open-answer:active .question {
-  margin-bottom: 50px;
 }
 
 /*Footer*/
